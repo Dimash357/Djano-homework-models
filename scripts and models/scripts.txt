@@ -1,0 +1,11 @@
+(Основные скрипты)
+python -m venv env
+call env/Scripts/activate.bat
+pip install django Pillow
+pip freeze > requirements.txt
+django-admin startproject django_settings .
+django-admin startapp django_app
+python manage.py runserver
+(скрипты, которые я использовал  в домашке)
+python manage.py makemigrations
+python manage.py migrate
